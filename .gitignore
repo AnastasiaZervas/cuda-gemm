@@ -1,0 +1,22 @@
+# Build outputs
+naive
+tiled
+reg
+*.o
+__pycache__/
+*.zip
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig*
+.kubeconfig
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
